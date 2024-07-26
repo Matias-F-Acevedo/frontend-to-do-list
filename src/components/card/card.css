@@ -1,0 +1,69 @@
+.card {
+    width: 240px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: rgba(253, 252, 205, 0.582);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.card li {
+    margin-bottom: 8px;
+}
+
+.card .li-title {
+    background-color: #cacaca8a;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.card .li-description {
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-bottom: 8px;
+}
+
+.card .li-status {
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons button {
+    width: 150px;
+    height: 30px;
+}
+
+.btn-delete {
+    background-color: rgba(255, 0, 0, 0.425);
+    border: none;
+    color: white;
+}
+
+.btn-completed {
+    background-color: rgba(95, 158, 160, 0.836);
+    border: none;
+    color: white;
+}
